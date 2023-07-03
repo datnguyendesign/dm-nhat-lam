@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookStore</title>
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+
+        <div class="container-box">
+            <div class="title">
+                <a href="#">Bookstore</a>
+            </div>
+
+            <div class="info">
+                <div class="user-info">
+                    <div class="header">
+                        <h2>Thông tin nhận hàng</h2>
+                        <a href="#" class="login">
+                            <i class="fa-solid fa-circle-user"></i>
+                            <p>Đăng nhập</p>
+                        </a>
+                    </div>
+
+                    <div class="email ct">
+                        <input type="text" required="" name="text" class="input">
+                        <label class="label">Email</label>
+                    </div>
+
+                    <div class="fullname ct">
+                        <input type="text" required="" name="text" class="input">
+                        <label class="label">Họ và tên</label>
+                    </div>
+
+                    <div class="phone-number ct">
+                        <input type="text" required="" name="text" class="input">
+                        <label class="label">Số điện thoại (tùy chọn)</label>
+                    </div>
+
+                    <div class="address ct">
+                        <input type="text" required="" name="text" class="input">
+                        <label class="label">Địa chỉ (tùy chọn)</label>
+                    </div>
+
+                    <div class="city_province ct">
+                        <input type="text" required="" name="text" class="input">
+                        <label class="label">Tỉnh thành</label>
+                    </div>
+
+                    <div class="district ct">
+                        <input type="text" required="" name="text" class="input">
+                        <label class="label">Quận huyện (tùy chọn)</label>
+                    </div>
+
+                    <div class="note ct">
+                        <textarea class="textarea" cols="20" rows="3"></textarea>
+                        <label class="label">Ghi chú (tùy chọn)</label>
+                    </div>
+                </div>
+
+                <div class="others">
+                    <div class="transport">
+                        <h1>Vận chuyển</h1>
+                        <div><h2>Vui lòng nhập thông tin giao hàng</h2></div>
+                    </div>
+
+                    <div class="payment">
+                        <h1>Thanh toán</h1>
+                        <div class="checkbox-container">
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="checkbox">
+                                Thanh toán khi giao hàng (COD)
+                                <i class="fa-regular fa-money-bill-1"></i>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container-box right">
+            <div class="container__product">
+                <div class="quantity">
+                    <h1>Đơn hàng (<span>1</span> sản phẩm)</h1>
+                </div>
+
+                <div class="products">
+                    <div class="info-product">
+                        <div class="item">
+                            <img width="100px" src="https://scontent.fdad2-1.fna.fbcdn.net/v/t39.30808-6/356906440_612870954340927_8117082411218477598_n.jpg?stp=dst-jpg_p180x540&_nc_cat=1&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=z1dOlin3dMkAX8okdi0&_nc_ht=scontent.fdad2-1.fna&oh=00_AfAyKITdLicSD_ACq2j6C5B2Tgbu__WuO-4tVXm5FScL2g&oe=64A6FFA8" alt="">
+                            <div class="quantity-no">1</div>
+                        </div>
+                        <p>Gwen nè mấy đứa ơi</p>
+
+
+                    </div>
+
+                    <div class="price" id="price">
+                        <span>56.000₫</span>
+                    </div>
+                </div>
+
+                <div class="discount">
+                    <div class="discount-input ct">
+                        <input type="text" class="input" required="" name="text">
+                        <label class="label">Nhập mã giảm giá</label>
+                    </div>
+
+                    <a href="#" class="btn">Áp dụng</a>
+                </div>
+
+                <div class="calculate">
+                    <div>
+                        <p>Tạm tính</p>
+                        <span>56.000₫</span>
+                    </div>
+
+                    <div>
+                        <p>Phí vận chuyển</p>
+                        <span>_</span>
+                    </div>
+
+                    <div class="total">
+                        <p>Tổng cộng</p>
+                        <span>56.000₫</span>
+                    </div>
+                </div>
+
+                <div class="order">
+                    <a href="#" class="back">
+                        <i class="fa-solid fa-chevron-left"></i>
+                        <span>Quay về giỏ hàng</span>
+                    </a>
+                    <a href="#" class="btn">Đặt hàng</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
